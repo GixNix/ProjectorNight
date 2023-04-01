@@ -15,7 +15,7 @@ export default function Experience()
 {
     return <>
 
-        <Canvas flat camera={ {fov: 35, near: 0.001, far: 10, position: [ 1, 2, 6 ]} } >
+        <Canvas flat camera={ {fov: 35, near: 0.1, far: 10, position: [ 1, 2, 6 ]} } >
 
         <color args={ [ '#293135' ] } attach="background" />
         <ambientLight  color={ '#feebce' } intensity={2}/>
